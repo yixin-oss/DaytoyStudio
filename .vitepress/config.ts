@@ -5,11 +5,11 @@ import { name, keywords } from './meta'
 const base = process.env.BASE || '/'
 
 export default defineConfig({
-  base,
   title: name,
   locales: {
     root: { label: '简体中文', lang: 'zh-CN' }
   },
+  base: '/dayvitepress/',
   markdown: {
     math: true,
     lineNumbers: true
