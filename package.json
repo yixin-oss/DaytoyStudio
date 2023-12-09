@@ -1,0 +1,28 @@
+{
+  "name": "vitepress-blog",
+  "description": "my website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "cross-env BASE=/vitepress-blog/ vitepress build",
+    "build:blog": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "markdown-it-footnote": "^3.0.3",
+    "markdown-it-task-checkbox": "^1.0.6",
+    "medium-zoom": "^1.1.0",
+    "vitepress": "1.0.0-rc.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vue": "^3.3.9"
+  },
+  "keywords": [],
+  "author": "lyn",
+  "license": "MIT"
+}
