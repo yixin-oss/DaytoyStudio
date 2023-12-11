@@ -1,1 +1,0 @@
-import{_ as s,o as i,c as a,R as n}from"./chunks/framework.cYTx99X6.js";const F=JSON.parse('{"title":"序","description":"","frontmatter":{},"headers":[],"relativePath":"CG/双三次B样条曲面绘制.md","filePath":"CG/双三次B样条曲面绘制.md"}'),l={name:"CG/双三次B样条曲面绘制.md"},p=n("",10),h=[p];function k(t,e,E,r,d,g){return i(),a("div",null,h)}const c=s(l,[["render",k]]);export{F as __pageData,c as default};

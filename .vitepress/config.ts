@@ -31,7 +31,7 @@ export default defineConfig({
     lastUpdatedText: '最后一次更新于',
     outline: 'deep',
     socialLinks: [
-      { icon: 'github', link: 'https://gitee.com/yixin-oss/vitepress' }
+      { icon: 'github', link: 'https://gitee.com/yixin-oss/daytoy-vitepress' }
     ],
     footer: {
       message: '常备不懈，才能有备无患',
