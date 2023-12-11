@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 import { sidebar, nav } from './sidebar'
 import { name, keywords } from './meta'
 
-const base = process.env.BASE || '/'
+const base = process.env.BASE || './'
 
 export default defineConfig({
   title: name,
   locales: {
     root: { label: '简体中文', lang: 'zh-CN' }
   },
-  base: '/dayvitepress/',
+  base,
   markdown: {
     math: true,
     lineNumbers: true
@@ -31,7 +31,7 @@ export default defineConfig({
     lastUpdatedText: '最后一次更新于',
     outline: 'deep',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/llwodexue/vitepress-blog' }
+      { icon: 'github', link: 'https://gitee.com/yixin-oss/vitepress' }
     ],
     footer: {
       message: '常备不懈，才能有备无患',

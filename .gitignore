@@ -1,6 +1,5 @@
 node_modules
 .DS_Store
-dist
 dist-ssr
 build
 lib
@@ -14,5 +13,6 @@ lerna-debug.log
 metadata.json
 run-sidebarItem.cjs
 
+# .vitepress/dist
 .vitepress/cache
 .vitepress/config.ts.timestamp*.mjs

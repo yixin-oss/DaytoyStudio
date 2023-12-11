@@ -1,12 +1,12 @@
 {
-  "name": "vitepress-blog",
+  "name": "vitepress",
   "description": "my website",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "cross-env BASE=/vitepress-blog/ vitepress build",
+    "build": "cross-env BASE=/vitepress/ vitepress build",
     "build:blog": "vitepress build",
     "serve": "vitepress serve"
   },
