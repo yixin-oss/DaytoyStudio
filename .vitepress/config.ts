@@ -29,7 +29,7 @@ export default defineConfig({
     outlineTitle: '导航栏',
     darkModeSwitchLabel: '外观',
     sidebarMenuLabel: '归档',
-    lastUpdatedText: '最后一次更新于',
+    lastUpdatedText: '最后更新于',
     outline: 'deep',
     socialLinks: [
       { icon: 'github', link: 'https://gitee.com/yixin-oss/daytoy-vitepress' },

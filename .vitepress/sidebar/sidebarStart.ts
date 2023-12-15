@@ -6,6 +6,11 @@ export default function (): DefaultTheme.SidebarItem[] {
       text: '写在前面',
       collapsed: false,
       items: [ { text: '欢迎来到Daytoy Studio', link: '欢迎来到Daytoy Studio.md' }]
+    },
+    {
+      text: '实用网站',
+      collapsed: false,
+      items: [ { text: '特色网站分享', link: '网站分享.md' }]
     }
   ]
 }

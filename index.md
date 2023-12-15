@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 👍Get started
-      link: /start/欢迎来到Daytoy Studio
+      link: /Start/欢迎
     - theme: alt
       text: 🔝数控加工
       link: /CAM/流线型加工路径

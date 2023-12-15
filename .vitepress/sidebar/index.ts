@@ -9,6 +9,7 @@ import sidebarLife from './sidebarLife'
 import sidebarCG from './sidebarCG'
 import sidebarOM from './sidebarOM'
 import sidebarPython from './sidebarPython'
+import sidebarPython2 from './sidebarPython2'
 import sidebarStart from './sidebarStart'
 
 const transNav = (base: string, arrFn: () => DefaultTheme.SidebarItem[]) => {
@@ -37,7 +38,7 @@ const nav: DefaultTheme.NavItem[] = [
   { text: '🎇优化方法', items: transNav('/OM/', sidebarOM) },
   //{ text: '💱数据结构与算法', items: transNav('/DataStructure/', sidebarDatastructure) },
   { text: '⭐️MATLAB', items: transNav('/MATLAB/', sidebarMATLAB) },
-  { text: '🎈Python', items: transNav('/Python/', sidebarPython) },
+  { text: '🎈Python', items: transNav('/Python/', sidebarPython2) },
   //{ text: '📖Latex', items: transNav('/Latex/', sidebarLatex) },
   { text: '🍊Life', items: transNav('/Life/', sidebarLife) },
   { text: '👻Others', items: transNav('/other/', sidebarOther) }
