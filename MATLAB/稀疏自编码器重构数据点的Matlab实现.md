@@ -1,11 +1,4 @@
----
-title: 稀疏自编码器重构数据点的Matlab实现
-tags: 
-- Matlab
-- 机器学习
-- 自编码器
-categories: 智能计算
----
+
 
 以下代码源自MathWorks官方文档[trainAutoencoder](https://www.mathworks.com/help/deeplearning/ref/trainautoencoder.html?s_tid=gn_loc_drop)的Examples.目标是实现1000个数据点的重构,并给出重构与原数据对比图.
 

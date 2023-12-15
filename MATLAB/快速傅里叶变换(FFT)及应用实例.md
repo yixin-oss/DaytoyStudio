@@ -1,11 +1,4 @@
----
-title: 快速傅里叶变换(FFT)及应用实例
-tags:
-- FFT
-- Matlab
-categories: Matlab学习笔记
-mathjax: true
----
+
 
 ## 实例一：离散点的FFT
 

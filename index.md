@@ -1,33 +1,43 @@
 ---
 layout: home
-title: LynDocs
+title: Daytoy
 
 hero:
-  name: LynDocs
-  text: Front-end learning
-  tagline: 一站式前端内容网站，包括学习路线、知识体系
+  name: Daytoy Studio
+  #text: Always be happy
+  tagline: 数控加工(CNCM), 计算机辅助设计与制造(CAD/CAM)—理论基础 & 程序设计
   image:
-    src: /dolphin.png
-    alt: lyn
+    src: /tech.png
+    alt: Daytoy
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /other/pnpm
+      text: 👍Get started
+      link: /start/欢迎来到Daytoy Studio
     - theme: alt
-      text: 其他
-      link: /other/Bezier曲线曲面绘制
+      text: 🔝数控加工
+      link: /CAM/流线型加工路径
+    - theme: alt
+      text: 🍺生活札记
+      link: /Life/不被定义
 
 features:
   - icon: 🛠️
-    title: 前端开发
-    details: JS、Vue、React、小程序、uniapp...
+    title: 数控加工一体化
+    details: 计算机辅助设计与制造(CAD/CAM), 数控加工(CNCM).
   - icon: 📚
-    title: 计算机基础
-    details: 计算机网络、数据结构与算法、操作系统、linux...
-  - icon: 📦
-    title: 工程化
-    details: Webpack、Vite、Grunt、Gulp、性能优化...
+    title: 计算数学
+    details: 计算几何(CG), 优化方法(OM), 数据结构与算法(DSA), 人工智能(AI).
   - icon: 💻
-    title: 运维部署
-    details: 前端环境、后端环境、数据库环境、容器环境、自动部署...
+    title: 程序设计
+    details: MATLAB, Python语言程序设计.
+  - icon: 📝
+    title: 规范化写作
+    details: Latex, Markdown语法.
+  
+  - icon: 🌈
+    title: AI作画
+    details: Midjourney作画日常分享.
+  - icon: 👓
+    title: 生活札记
+    details: 旅行, 酒杯, 随笔, 诗与远方...
 ---

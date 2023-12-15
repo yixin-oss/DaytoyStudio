@@ -1,2 +1,2 @@
-export const name = 'YiXinDocs'
-export const keywords = '前端开发、学习路线、知识体系、工程化、运维部署、数据结构与算法、计算机网络'
+export const name = 'Daytoy'
+export const keywords = '计算机辅助设计(CAD), 计算机辅助制造(CAM), 数控加工(CNCM), 计算几何(CG), 优化方法(OM), MATLAB程序设计, 数据结构与算法(DSA), Python语言程序设计, Latex写作, Markdown语法'
