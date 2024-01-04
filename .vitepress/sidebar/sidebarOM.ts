@@ -24,6 +24,11 @@ export default function (): DefaultTheme.SidebarItem[] {
       text: 'Dijkstra',
       collapsed: false,
       items: [{ text: 'Dijkstra算法', link: 'Dijkstra算法.md' }]
+    },
+    {
+      text: '其他',
+      collapsed: false,
+      items: [{ text: '隐式QR迭代算法', link: '隐式QR迭代算法.md' }]
     }
   ]
 }

@@ -28,7 +28,8 @@ export default function (): DefaultTheme.SidebarItem[] {
    {
       text: '画法几何',
       collapsed: false,
-      items: [{ text: 'Matlab实现任意圆柱体绘制', link: 'Matlab实现任意圆柱体绘制.md' }]
+      items: [{ text: 'Matlab实现任意圆柱体绘制', link: 'Matlab实现任意圆柱体绘制.md' },
+      { text: 'MATLAB画图技巧', link: 'MATLAB画图技巧.md' }]
    }
   ]
 }

@@ -7,7 +7,8 @@ export default function (): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [{ text: '不被定义', link: '不被定义.md' },
       { text: '遇到同频的人有多幸运', link: '遇到同频的人有多幸运.md' },
-      { text: '读博那些事', link: '读博那些事.md' }
+      { text: '读博那些事', link: '读博那些事.md' },
+      { text: '八字短句集', link: '八字短句集.md' }
       ]
     },
     {
@@ -18,7 +19,7 @@ export default function (): DefaultTheme.SidebarItem[] {
     {
       text: '🌿沿途风光',
       collapsed: false,
-      items: [{ text: '背起行囊走四方——旅行随笔', link: '旅行随笔.md' }]
+      items: [{ text: '背起行囊走四方——旅行随笔', link: '旅行随笔.md' },{ text: '长沙行', link: '长沙行.md' }]
     },
     {
       text: '🎨AI绘画',

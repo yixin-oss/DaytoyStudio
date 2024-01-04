@@ -8,6 +8,11 @@ export default function (): DefaultTheme.SidebarItem[] {
       items: [{ text: '最小二乘法', link: '最小二乘法.md' }]
     },
     {
+      text: '✨微分几何基础',
+      collapsed: false,
+      items: [{ text: 'Dupin指标线', link: 'Dupin指标线.md' }]
+    },
+    {
       text: '🎐编程练习',
       collapsed: false,
       items: [{ text: '计算几何中的编程练习', link: '计算几何中的编程练习.md' }]
@@ -18,7 +23,9 @@ export default function (): DefaultTheme.SidebarItem[] {
       items: [{ text: 'Bezier曲线曲面绘制', link: 'Bezier曲线曲面绘制.md' },
        { text: '双三次B样条曲面绘制及微分量计算', link: '双三次B样条曲面绘制及微分量计算.md' },
   { text: 'Matlab样条工具箱及曲线拟合', link: 'Matlab样条工具箱及曲线拟合.md' },
-  { text: '基于MATLAB的B样条曲线插值算法', link: '基于MATLAB的B样条曲线插值算法.md' }
+  { text: '基于MATLAB的B样条曲线插值算法', link: '基于MATLAB的B样条曲线插值算法.md' },
+  { text: 'de Casteljau算法与de Boor算法', link: 'de Casteljau算法与de Boor算法.md'}
+
       ]
     },
     {

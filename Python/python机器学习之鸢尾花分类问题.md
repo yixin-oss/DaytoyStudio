@@ -7,15 +7,17 @@ categories: python学习笔记
 
 ---
 
-<font size=4 face="楷体">**已知：**鸢尾花有三个品种：setosa，versicolor,virginica，给出鸢尾花花瓣长度、宽度及花萼的长度宽度作为测量数据，测量结果单位都是cm.</font>
+<font size=4 face="楷体">**已知** 鸢尾花有三个品种：setosa，versicolor,virginica，给出鸢尾花花瓣长度、宽度及花萼的长度宽度作为测量数据，测量结果单位都是cm.</font>
 
-<font size=4 face="楷体">**目标：**构建机器学习模型，从已知品种的鸢尾花测量数据中进行学习，预测新鸢尾花的品种.</font>
+<font size=4 face="楷体">**目标** 构建机器学习模型，从已知品种的鸢尾花测量数据中进行学习，预测新鸢尾花的品种.</font>
 
 <!-- more -->
 
-<font size=4 face="楷体">**分析：**有已知品种的测量数据，这是一个监督学习问题，数据集中每朵花分属于三个类别，这是三分类问题.</font>
+<font size=4 face="楷体">**分析** 有已知品种的测量数据，这是一个监督学习问题，数据集中每朵花分属于三个类别，这是三分类问题.</font>
 
-<font size=4 face="楷体">以下代码均在 **Jupyter Notebook**  中编写及运行.</font>
+> <font size=4 face="楷体">以下代码均在 Jupyter Notebook 中编写及运行.</font>
+
+
 
 <font size=5 face="楷体"> 必要的库调用</font>
 
@@ -136,6 +138,8 @@ print(iris_dataset['target'])
 
 <font size=4 face="楷体">品种已转换成0~2整数.</font>
 
+
+
 <font size=5 face="楷体">训练数据与测试数据</font>
 
 <font size=4 face="楷体">将收集好的带标签数据按比例分成两部分:**训练数据**（构建机器学习模型）、**测试数据**（评估模型性能）</font>
@@ -176,6 +180,8 @@ print(y_test.shape)
 
 <font size=5 face="楷体">构建模型:k近邻算法</font>
 
+
+
 <font size=4 face="楷体">含义：考虑训练集中与新数据最近的任意k个邻居，而不是只考虑最近的一个.用这些邻居中数量最多的类别作出预测.
 </font>
 
@@ -205,6 +211,8 @@ KNeighborsClassifier(n_neighbors=1)
 
 <font size=5 face="楷体">作出预测</font>
 
+
+
 <font size=4 face="楷体">对一朵新的已知测量数据的鸢尾花进行预测:</font>
 
 ```
@@ -227,6 +235,8 @@ Predicted target name:['setosa']
 ```
 
 <font size=5 face="楷体">评估模型</font>
+
+
 
 <font size=4 face="楷体">对测试数据进行预测并与实际标签对比.</font>
 
@@ -257,7 +267,11 @@ print(score)
 
 <font size=4 face="楷体">这个模型测试集的精度约为0.97，就是说对于测试集中鸢尾花的预测有97%是正确的.高精度意味着模型可信.</font>
 
+
+
 <font size=5 face="楷体">汇总</font>
+
+
 
 <font size=4 face="楷体">整个训练和评估过程所必需的代码：</font>
 
