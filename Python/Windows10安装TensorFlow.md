@@ -37,7 +37,7 @@ categories: Tensorflow学习笔记
 用**conda create -n **新建一个名为tensorflow的环境，用python3.6版本(3.7也可)
 
 ```
-conda create -n tensorflow python=3.6
+conda create -n pytorch
 ```
 
 <img src="https://gitee.com/yixin-oss/blogImage/raw/master/img/1.png" style="zoom:80%;" />
@@ -47,7 +47,7 @@ conda create -n tensorflow python=3.6
 **conda activate tensorflow**进入tensorflow虚拟环境环境
 
 ```
-conda activate tensorflow
+conda activate pytorch
 ```
 
 
@@ -183,4 +183,29 @@ pip install numpy
 pip install matplotlib
 
 ```
+
+## 补充: Juptynotebook切换到配置好的conda虚拟环境
+
+在Anaconda Prompt中依次输入
+
+```python
+conda activate pytorch # 进入配置好的虚拟环境, 名称tensorflow
+
+conda install ipykernel #安装ipykernel
+
+python -m ipykernel install --name pytorch
+# 自动在目录生成一个tensorflow文件夹, 里面有kernel.json文件
+```
+
+现在打开Juptynotebook, 里面就会有虚拟环境可以切换了
+
+## 补充: Pycharm中调用pytorch
+
+在pycharm中即使已经进入到装有torch的虚拟环境中, 也可能无法正常`import torch`, 这是因为设置的conda解释器中缺少`pytorch/torchvision`的缘故, 这时就需要手动添加解释器, 将它们安装好后即可正常调用.
+
+![image-20240530215134325](https://gitee.com/yixin-oss/blogImage/raw/master/Img/image-20240530215134325.png)
+
+![image-20240530215200339](https://gitee.com/yixin-oss/blogImage/raw/master/Img/image-20240530215200339.png)
+
+显示蓝色即为安装成功.
 

@@ -4,6 +4,8 @@ import { onMounted, watch, nextTick } from 'vue'
 import mediumZoom from 'medium-zoom'
 import './style/vars.css'
 import './style/global.css'
+import './style/index.scss'
+
 
 export default {
   ...DefaultTheme,

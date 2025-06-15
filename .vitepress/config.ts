@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { sidebar, nav } from './sidebar'
 import { name, keywords } from './meta'
 
+
 const base = process.env.BASE || './'
 
 export default defineConfig({
@@ -60,6 +61,6 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: keywords }],
     ['meta', { name: 'author', content: 'Daytoy' }],
 
-    ['link', { rel: 'icon', type: 'image/png+xml', href: '/cat.png' }]
+    ['link', { rel: 'icon', type: 'image/png+xml', href: base + 'cat.png' }]
   ]
 })

@@ -8,9 +8,9 @@ export default function (): DefaultTheme.SidebarItem[] {
       items: [{ text: '最小二乘法', link: '最小二乘法.md' }]
     },
     {
-      text: '✨微分几何基础',
+      text: '✨微分几何',
       collapsed: false,
-      items: [{ text: 'Dupin指标线', link: 'Dupin指标线.md' }]
+      items: [{ text: '理论基础', link: '理论基础.md' } ,{ text: 'Dupin指标线', link: 'Dupin指标线.md' }]
     },
     {
       text: '🎐编程练习',

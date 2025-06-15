@@ -1,12 +1,12 @@
 {
-  "name": "daytoy-vitepress",
+  "name": "DaytoyStudio",
   "description": "my website",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "cross-env BASE=/daytoy-vitepress/ vitepress build",
+    "build": "cross-env BASE=/DaytoyStudio/ vitepress build",
     "build:blog": "vitepress build",
     "serve": "vitepress serve"
   },
@@ -15,6 +15,7 @@
     "markdown-it-footnote": "^3.0.3",
     "markdown-it-task-checkbox": "^1.0.6",
     "medium-zoom": "^1.1.0",
+    "sass": "^1.71.1",
     "vitepress": "1.0.0-rc.31"
   },
   "devDependencies": {

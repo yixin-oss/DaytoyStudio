@@ -42,6 +42,15 @@ export default function (): DefaultTheme.SidebarItem[] {
   {text: '人工智能：Tensorflow2笔记(一)', link: '人工智能：Tensorflow2笔记(一).md'},
   { text: '人工智能-Tensorflow2笔记(二)', link: '人工智能-Tensorflow2笔记(二).md' },
    { text: '人工智能-Tensorflow2笔记(三)', link: '人工智能-Tensorflow2笔记(三).md' }]},
+              {text: '神经网络',
+               collapsed: false,
+               items: [{ text: '卷积神经网络(CNN)', link: '卷积神经网络(CNN).md' },
+                       {text: '残差神经网络(ResNet)', link: '残差神经网络(ResNet).md' },
+                        {
+    text: '内嵌物理知识神经网络(Physics-Informed-Neural-Network,-PINN)',
+    link: '内嵌物理知识神经网络(Physics-Informed-Neural-Network,-PINN).md'
+  }
+]},
               {text: 'DBSCAN',
                collapsed: false,
                items:[ { text: 'DBSCAN聚类算法', link: 'DBSCAN聚类算法.md' }]}
