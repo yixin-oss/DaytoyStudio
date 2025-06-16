@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.-otb-FOr.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Life/勒是雾都.md","filePath":"Life/勒是雾都.md","lastUpdated":null}'),r={name:"Life/勒是雾都.md"};function o(s,n,c,_,i,d){return t(),a("div")}const l=e(r,[["render",o]]);export{f as __pageData,l as default};
