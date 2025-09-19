@@ -5,7 +5,7 @@ export default function (): DefaultTheme.SidebarItem[] {
     {
       text: '📐数值逼近',
       collapsed: false,
-      items: [{ text: '最小二乘法', link: '最小二乘法.md' }]
+      items: [{ text: '最小二乘法', link: '最小二乘法.md' },{ text: '最小二乘法(续)', link: '最小二乘法(续).md' }]
     },
     {
       text: '✨微分几何',

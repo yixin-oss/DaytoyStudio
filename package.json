@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
-    "build": "cross-env BASE=/DS/ vitepress build",
+    "build": "cross-env BASE=/DaytoyStudio/ vitepress build",
     "build:blog": "vitepress build",
     "serve": "vitepress serve"
   },

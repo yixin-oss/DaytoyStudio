@@ -51,7 +51,7 @@ export default defineConfig({
     ],
     footer: {
       message: '热爱可抵岁月漫长',
-      copyright: `版权所有 © 2023-2024 Daytoy Studio`
+      copyright: `版权所有 © 2023-2025 Daytoy Studio`
     },
     nav,
     sidebar
