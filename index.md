@@ -5,7 +5,7 @@ title: Daytoy
 hero:
   name: Daytoy Studio
   #text: Always be happy
-  tagline: 数控加工(CNCM), 计算机辅助设计与制造(CAD/CAM)—理论基础 & 程序设计
+  tagline: CAD/CAM/CNC—Theory & Programming
   image:
     src: /tech.png
     alt: Daytoy
@@ -22,7 +22,7 @@ hero:
 
 features:
   - icon: 🛠️
-    title: 数控加工一体化
+    title: CAD/CAM/CNC
     details: 计算机辅助设计与制造(CAD/CAM), 数控加工(CNCM).
     link: /CAM/流线型加工路径
   - icon: 📚

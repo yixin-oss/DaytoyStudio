@@ -18,7 +18,12 @@ export default function (): DefaultTheme.SidebarItem[] {
         text: 'Tool path planning method for parametric surfaces based on piecewise Coons stream function reconstruction on hierarchical T-meshes',
         link: 'Tool path planning method for parametric surfaces based on piecewise Coons stream function reconstruction on hierarchical T-meshes.md'
       },
-      { text: '余切拉普拉斯算子与向量场离散散度定理推导', link: '余切拉普拉斯算子与向量场离散散度定理推导.md' }]
+      { text: '余切拉普拉斯算子与向量场离散散度定理推导', link: '余切拉普拉斯算子与向量场离散散度定理推导.md' },
+      {
+        text: '基于热理论的测地距离计算(Geodesics in Heat)',
+        link: '基于热理论的测地距离计算(Geodesics in Heat).md'
+      }
+    ]
     },
     {
       text: '🔥文献整理',
